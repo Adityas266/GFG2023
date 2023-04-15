@@ -22,6 +22,45 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
+    .panel{
+      border: none;
+      /* display: inline; */
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .panel-footer{
+      display: inline-flex;
+      width: 100%;
+    }
+    .container{
+      width: 100%;
+      margin-left: 20px;
+      
+    }
+    .navbar-form .input-group {
+  width: 300px;
+}
+
+.navbar-form .form-control {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .navbar-form .input-group {
+    width: 100%;
+  }
+
+  .navbar-form .input-group-btn,
+  .navbar-form .btn {
+    width: 100%;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -41,14 +80,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
         <li><a href="#">Deals</a></li>
-        <li><a href="#">Stores</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -65,30 +101,32 @@
       <div class="panel panel-primary">
         <div class="panel-heading">Shelcal 500mg</div>
         <div class="panel-body"><img src="https://res.sastasundar.com/incom/images/product/Shelcal-1667453081-10000732-1.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-1">Buy Now </a><h4>₹111</h4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-1">Buy Now </a>&nbsp&nbsp&nbsp&nbsp&nbsp<h4>₹111</h4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-danger">
         <div class="panel-heading">Himalaya Septilin</div>
         <div class="panel-body"><img src="https://th.bing.com/th/id/OIP.m1mVeD7JReki3iOIOhe5ZgHaHa?pid=ImgDet&rs=1" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-2">Buy Now</a><h4>₹155</h4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-2">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<h4>₹155</h4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-success">
         <div class="panel-heading"> Dabur Shilajit</div>
         <div class="panel-body"><img src="https://cdn01.pharmeasy.in/dam/products_otc/204180/dabur-shilajit-gold-vitality-capsules-bottle-of-20-3-1604646767.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-3">Buy Now</a><h4>₹401</h4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-3">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<h4>₹401</h4></div>
       </div>
     </div>
     <div class="col-sm-3">
       <div class="panel panel-primary">
         <div class="panel-heading">Baidyanath CHYAWANPRASH</div>
         <div class="panel-body"><img src="https://n2.sdlcdn.com/imgs/c/x/f/Baidyanath-CHYAWANPRASH-SPECIAL-Paste-1000-SDL374008389-3-47fe7.jpg" class="img-responsive" style="width:35%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a><H4>₹249</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹249</H4></div>
+      </div>
+    </div><br>
   </div>
-</div><br>
+</div>
 
 <div class="container">    
   <div class="row">
@@ -96,61 +134,28 @@
       <div class="panel panel-primary">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://n2.sdlcdn.com/imgs/c/x/f/Baidyanath-CHYAWANPRASH-SPECIAL-Paste-1000-SDL374008389-3-47fe7.jpg" class="img-responsive" style="width:35%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a><H4>₹249</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹249</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-danger">
         <div class="panel-heading">Zandu balm 10gm</div>
         <div class="panel-body"><img src="https://www.mchemist.com/product_images/1000/zandu-balm-10gm_1493040698.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a><H4>₹130</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹130</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-success">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-success">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-<div class="container">    
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-primary">
-        <div class="panel-heading">DEAL OF THE DAY!!!</div>
-        <div class="panel-body"><img src="https://n2.sdlcdn.com/imgs/c/x/f/Baidyanath-CHYAWANPRASH-SPECIAL-Paste-1000-SDL374008389-3-47fe7.jpg" class="img-responsive" style="width:35%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a><H4>₹249</H4></div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading">Zandu balm 10gm</div>
-        <div class="panel-body"><img src="https://www.mchemist.com/product_images/1000/zandu-balm-10gm_1493040698.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a><H4>₹130</H4></div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-success">
-        <div class="panel-heading">DEAL OF THE DAY!!!</div>
-        <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
-      </div>
-    </div>
-    <div class="col-sm-3"> 
-      <div class="panel panel-success">
-        <div class="panel-heading">DEAL OF THE DAY!!!</div>
-        <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
       </div>
     </div>
   </div>
@@ -162,28 +167,61 @@
       <div class="panel panel-primary">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://n2.sdlcdn.com/imgs/c/x/f/Baidyanath-CHYAWANPRASH-SPECIAL-Paste-1000-SDL374008389-3-47fe7.jpg" class="img-responsive" style="width:35%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a><H4>₹249</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹249</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-danger">
         <div class="panel-heading">Zandu balm 10gm</div>
         <div class="panel-body"><img src="https://www.mchemist.com/product_images/1000/zandu-balm-10gm_1493040698.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a><H4>₹130</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹130</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-success">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
       </div>
     </div>
     <div class="col-sm-3"> 
       <div class="panel panel-success">
         <div class="panel-heading">DEAL OF THE DAY!!!</div>
         <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
-        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a><H4>₹359</H4></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading">DEAL OF THE DAY!!!</div>
+        <div class="panel-body"><img src="https://n2.sdlcdn.com/imgs/c/x/f/Baidyanath-CHYAWANPRASH-SPECIAL-Paste-1000-SDL374008389-3-47fe7.jpg" class="img-responsive" style="width:35%" alt="Image"></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-4">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹249</H4></div>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Zandu balm 10gm</div>
+        <div class="panel-body"><img src="https://www.mchemist.com/product_images/1000/zandu-balm-10gm_1493040698.jpg" class="img-responsive" style="width:40%" alt="Image"></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-5">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹130</H4></div>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">DEAL OF THE DAY!!!</div>
+        <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">DEAL OF THE DAY!!!</div>
+        <div class="panel-body"><img src="https://i5.walmartimages.com/asr/f9cc9047-3eb3-4c69-9100-0a9d747f31fb_1.4e32f8bb744ba41f6ae7662ad9a54416.jpeg" class="img-responsive" style="width:40%" alt="Image"></div>
+        <div class="panel-footer"><a href="#" class="btn btn-primary" id="cart-btn-6">Buy Now</a>&nbsp&nbsp&nbsp&nbsp&nbsp<H4>₹359</H4></div>
       </div>
     </div>
   </div>
